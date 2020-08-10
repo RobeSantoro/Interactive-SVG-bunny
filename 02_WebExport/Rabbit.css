@@ -1,0 +1,326 @@
+.mediaViewInfo {
+	--web-view-name: Rabbit;
+	--web-view-id: Rabbit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Rabbit;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Rabbit {
+	position: absolute;
+	width: 414px;
+	height: 736px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Rabbit;
+	--web-view-id: Rabbit;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+#Rabbit_o {
+	position: absolute;
+	width: 306px;
+	height: 916.03px;
+	left: 54px;
+	top: 34px;
+	overflow: visible;
+}
+#Area {
+	opacity: 0;
+	fill: rgba(255,255,255,0.529);
+}
+.Area {
+	position: absolute;
+	overflow: visible;
+	width: 306px;
+	height: 916px;
+	left: 0px;
+	top: 0px;
+}
+#holeMaterial {
+	fill: rgba(116,78,30,1);
+}
+.holeMaterial {
+	overflow: visible;
+	position: absolute;
+	width: 210.634px;
+	height: 150.652px;
+	left: 49.121px;
+	top: 436.659px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#head {
+	position: absolute;
+	width: 168.094px;
+	height: 371.194px;
+	left: 70.602px;
+	top: 151.859px;
+	overflow: visible;
+}
+#r_ear {
+	position: absolute;
+	width: 78.394px;
+	height: 208.025px;
+	left: 89.7px;
+	top: 0.231px;
+	overflow: visible;
+}
+#Path_3 {
+	fill: rgba(255,205,245,1);
+}
+.Path_3 {
+	overflow: visible;
+	position: absolute;
+	width: 54.063px;
+	height: 202.949px;
+	transform: translate(0.049px, -0.016px) matrix(1,0,0,1,12.1156,2.5544) rotate(187deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_4 {
+	fill: rgba(255,230,250,1);
+}
+.Path_4 {
+	overflow: visible;
+	position: absolute;
+	width: 34.061px;
+	height: 138.712px;
+	transform: translate(0.049px, -0.016px) matrix(1,0,0,1,20.1365,36.8091) rotate(187deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#l_ear {
+	position: absolute;
+	width: 78.025px;
+	height: 208.327px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Path_3_w {
+	fill: rgba(255,205,245,1);
+}
+.Path_3_w {
+	overflow: visible;
+	position: absolute;
+	width: 53.648px;
+	height: 203.304px;
+	transform: translate(0.042px, -0.016px) matrix(1,0,0,1,12.1459,2.5277) rotate(-7deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_4_x {
+	fill: rgba(255,230,250,1);
+}
+.Path_4_x {
+	overflow: visible;
+	position: absolute;
+	width: 34.061px;
+	height: 138.713px;
+	transform: translate(0.042px, -0.016px) matrix(1,0,0,1,23.7833,37.0398) rotate(-7deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#head_shape {
+	fill: rgba(255,181,240,1);
+}
+.head_shape {
+	overflow: visible;
+	position: absolute;
+	width: 153.575px;
+	height: 196.703px;
+	left: 7.128px;
+	top: 174.491px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#r_eye {
+	fill: rgba(255,255,255,1);
+}
+.r_eye {
+	position: absolute;
+	overflow: visible;
+	width: 53.032px;
+	height: 75.461px;
+	left: 23.784px;
+	top: 196.053px;
+}
+#l_eye {
+	fill: rgba(255,255,255,1);
+}
+.l_eye {
+	position: absolute;
+	overflow: visible;
+	width: 55.823px;
+	height: 75.461px;
+	left: 87.98px;
+	top: 196.053px;
+}
+#r_pupil {
+	fill: rgba(0,0,0,1);
+}
+.r_pupil {
+	position: absolute;
+	overflow: visible;
+	width: 27.911px;
+	height: 30.744px;
+	left: 37.74px;
+	top: 218.412px;
+}
+#l_pupil {
+	fill: rgba(0,0,0,1);
+}
+.l_pupil {
+	position: absolute;
+	overflow: visible;
+	width: 27.911px;
+	height: 30.744px;
+	left: 99.145px;
+	top: 218.412px;
+}
+#mouth {
+	fill: transparent;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 2px;
+	stroke-linejoin: miter;
+	stroke-linecap: round;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.mouth {
+	overflow: visible;
+	position: absolute;
+	width: 121.328px;
+	height: 18.846px;
+	left: 24.211px;
+	top: 282.414px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#r_hand {
+	position: absolute;
+	width: 76.544px;
+	height: 51.601px;
+	left: 165.274px;
+	top: 456.12px;
+	overflow: visible;
+}
+#Path_15 {
+	fill: rgba(241,188,230,1);
+}
+.Path_15 {
+	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 25.829px;
+	height: 32.507px;
+	transform: translate(0.021px, -0.018px) matrix(1,0,0,1,4.1668,16.0459) rotate(-17deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_16 {
+	fill: rgba(241,188,230,1);
+}
+.Path_16 {
+	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 25.091px;
+	height: 32.507px;
+	transform: translate(0.021px, -0.018px) matrix(1,0,0,1,26.0583,9.457) rotate(-17deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_17 {
+	fill: rgba(241,188,230,1);
+}
+.Path_17 {
+	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 25.091px;
+	height: 32.507px;
+	transform: translate(0.021px, -0.018px) matrix(1,0,0,1,47.2279,2.9761) rotate(-17deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#l_hand {
+	position: absolute;
+	width: 76.544px;
+	height: 51.6px;
+	left: 64.182px;
+	top: 456.118px;
+	overflow: visible;
+}
+#Path_18 {
+	fill: rgba(241,188,230,1);
+}
+.Path_18 {
+	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 25.829px;
+	height: 32.507px;
+	transform: translate(0.021px, -0.019px) matrix(1,0,0,1,4.1668,3.0844) rotate(17deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_19 {
+	fill: rgba(241,188,230,1);
+}
+.Path_19 {
+	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 25.091px;
+	height: 32.507px;
+	transform: translate(0.021px, -0.019px) matrix(1,0,0,1,26.0583,9.6732) rotate(17deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#Path_20 {
+	fill: rgba(241,188,230,1);
+}
+.Path_20 {
+	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
+	overflow: visible;
+	position: absolute;
+	width: 25.091px;
+	height: 32.507px;
+	transform: translate(0.021px, -0.019px) matrix(1,0,0,1,47.2279,16.1541) rotate(17deg);
+	transform-origin: center;
+	left: 0px;
+	top: 0px;
+}
+#grassFront {
+	fill: rgba(126,194,109,1);
+}
+.grassFront {
+	overflow: visible;
+	position: absolute;
+	width: 305.49px;
+	height: 455.743px;
+	left: 0.255px;
+	top: 460.287px;
+	transform: matrix(1,0,0,1,0,0);
+}
