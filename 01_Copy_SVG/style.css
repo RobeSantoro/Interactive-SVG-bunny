@@ -1,64 +1,59 @@
 
-                    .a {
-                        fill: rgba(255, 255, 255, 0.53);
-                        opacity: 0;
-                    }
+.b {
+    fill: #744e1e;
+}
 
-                    .b {
-                        fill: #744e1e;
-                    }
+.dark-pink {
+    fill: #ffcdf5;
+}
 
-                    .c {
-                        fill: #ffcdf5;
-                    }
+.light-pink {
+    fill: #ffe6fa;
+}
 
-                    .d {
-                        fill: #ffe6fa;
-                    }
+.e {
+    fill: #ffb5f0;
+}
 
-                    .e {
-                        fill: #ffb5f0;
-                    }
+.f {
+    fill: #fff;
+}
 
-                    .f {
-                        fill: #fff;
-                    }
+.g {
+    fill: none;
+    stroke: #000;
+    stroke-linecap: round;
+    stroke-width: 2px;
+}
 
-                    .g {
-                        fill: none;
-                        stroke: #000;
-                        stroke-linecap: round;
-                        stroke-width: 2px;
-                    }
+.h {
+    fill: #f1bce6;
+}
 
-                    .h {
-                        fill: #f1bce6;
-                    }
+.i {
+    fill: #7ec26d;
+}
 
-                    .i {
-                        fill: #7ec26d;
-                    }
+.j {
+    filter: url(#k);
+}
 
-                    .j {
-                        filter: url(#k);
-                    }
+.k {
+    filter: url(#i);
+}
 
-                    .k {
-                        filter: url(#i);
-                    }
+.l {
+    filter: url(#g);
+}
 
-                    .l {
-                        filter: url(#g);
-                    }
+.m {
+    filter: url(#e);
+}
 
-                    .m {
-                        filter: url(#e);
-                    }
+.n {
+    filter: url(#c);
+}
 
-                    .n {
-                        filter: url(#c);
-                    }
-
-                    .o {
-                        filter: url(#a);
-                    }
+.o {
+    filter: url(#a);
+}
