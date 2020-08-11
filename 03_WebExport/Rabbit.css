@@ -1,37 +1,36 @@
 .mediaViewInfo {
-	--web-view-name: Rabbit;
-	--web-view-id: Rabbit;
-	--web-scale-on-resize: true;
-	--web-center-horizontally: true;
-	--web-center-vertically: true;
+	--web-view-name: canvas;
+	--web-view-id: canvas;
 	--web-application: true;
 	--web-enable-deep-linking: true;
 }
 :root {
-	--web-view-ids: Rabbit;
+	--web-view-ids: canvas;
 }
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	border: none;
-	transition: .25s;
 }
-body{
-	background-color: rgba(126,194,109,1);
+#canvas {
+	position: absolute;
+	width: 320px;
+	height: 568px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: canvas;
+	--web-view-id: canvas;
+	--web-application: true;
+	--web-enable-deep-linking: true;
 }
 #Rabbit {
 	position: absolute;
-	width: 414px;
-	height: 736px;	
-	overflow: hidden;
-	--web-view-name: Rabbit;
-	--web-view-id: Rabbit;
-	--web-scale-on-resize: true;
-	--web-center-horizontally: true;
-	--web-center-vertically: true;
-	--web-application: true;
-	--web-enable-deep-linking: true;
+	width: 320px;
+	height: 694.601px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
 }
 #holeMaterial {
 	fill: rgba(116,78,30,1);
@@ -39,84 +38,92 @@ body{
 .holeMaterial {
 	overflow: visible;
 	position: absolute;
-	width: 210.634px;
+	width: 220.639px;
 	height: 150.652px;
-	left: 49.121px;
-	top: 200px;
+	left: 51.187px;
+	top: 215.231px;
 	transform: matrix(1,0,0,1,0,0);
 }
 #head {
 	position: absolute;
-	width: 168.094px;
-	height: 371.194px;
-	left: 70px;
-	top: -80px;
+	width: 161.05px;
+	height: 301.625px;
+	left: 81.126px;
+	top: 0px;
+	overflow: visible;
+}
+#ears {
+	position: absolute;
+	width: 161.05px;
+	height: 141.075px;
+	left: 0px;
+	top: 0px;
 	overflow: visible;
 }
 #r_ear {
 	position: absolute;
-	width: 78.394px;
-	height: 208.025px;
-	left: 89.7px;
-	top: 0.231px;
+	width: 70.902px;
+	height: 140.893px;
+	left: 90.148px;
+	top: 0.146px;
 	overflow: visible;
 }
-#Path_3 {
+#_outsideEar {
 	fill: rgba(255,205,245,1);
 }
-.Path_3 {
+._outsideEar {
 	overflow: visible;
 	position: absolute;
-	width: 54.063px;
-	height: 202.949px;
-	transform: translate(0.049px, -0.016px) matrix(1,0,0,1,12.1156,2.5544) rotate(187deg);
+	width: 54.831px;
+	height: 135.219px;
+	transform: translate(-3.971px, 1.487px) matrix(1,0,0,1,12.0065,1.3507) rotate(187deg);
 	transform-origin: center;
 	left: 0px;
 	top: 0px;
 }
-#Path_4 {
+#r_insideEar {
 	fill: rgba(255,230,250,1);
 }
-.Path_4 {
+.r_insideEar {
 	overflow: visible;
 	position: absolute;
-	width: 34.061px;
-	height: 138.712px;
-	transform: translate(0.049px, -0.016px) matrix(1,0,0,1,20.1365,36.8091) rotate(187deg);
+	width: 34.739px;
+	height: 92.233px;
+	transform: translate(-3.971px, 1.487px) matrix(1,0,0,1,19.9365,23.9226) rotate(187deg);
 	transform-origin: center;
 	left: 0px;
 	top: 0px;
 }
 #l_ear {
 	position: absolute;
-	width: 78.025px;
-	height: 208.327px;
+	width: 70.527px;
+	height: 141.075px;
 	left: 0px;
 	top: 0px;
 	overflow: visible;
 }
-#Path_3_w {
+#l_outsideEar {
 	fill: rgba(255,205,245,1);
 }
-.Path_3_w {
+.l_outsideEar {
 	overflow: visible;
 	position: absolute;
-	width: 53.648px;
-	height: 203.304px;
-	transform: translate(0.042px, -0.016px) matrix(1,0,0,1,12.1459,2.5277) rotate(-7deg);
+	width: 54.426px;
+	height: 135.452px;
+	transform: translate(-3.524px, 1.481px) matrix(1,0,0,1,11.5744,1.3311) rotate(-7deg);
 	transform-origin: center;
 	left: 0px;
 	top: 0px;
 }
-#Path_4_x {
+#l_inside_ear {
 	fill: rgba(255,230,250,1);
 }
-.Path_4_x {
+.l_inside_ear {
 	overflow: visible;
 	position: absolute;
-	width: 34.061px;
-	height: 138.713px;
-	transform: translate(0.042px, -0.016px) matrix(1,0,0,1,23.7833,37.0398) rotate(-7deg);
+	width: 34.739px;
+	height: 92.233px;
+	transform: translate(-3.524px, 1.481px) matrix(1,0,0,1,23.3973,24.0747) rotate(-7deg);
 	transform-origin: center;
 	left: 0px;
 	top: 0px;
@@ -129,9 +136,17 @@ body{
 	position: absolute;
 	width: 153.575px;
 	height: 196.703px;
-	left: 7.128px;
-	top: 174.491px;
+	left: 3.605px;
+	top: 104.922px;
 	transform: matrix(1,0,0,1,0,0);
+}
+#eyes {
+	position: absolute;
+	width: 120.019px;
+	height: 75.461px;
+	left: 20.261px;
+	top: 126.484px;
+	overflow: visible;
 }
 #r_eye {
 	fill: rgba(255,255,255,1);
@@ -141,8 +156,8 @@ body{
 	overflow: visible;
 	width: 53.032px;
 	height: 75.461px;
-	left: 23.784px;
-	top: 196.053px;
+	left: 0px;
+	top: 0px;
 }
 #l_eye {
 	fill: rgba(255,255,255,1);
@@ -152,8 +167,16 @@ body{
 	overflow: visible;
 	width: 55.823px;
 	height: 75.461px;
-	left: 87.98px;
-	top: 196.053px;
+	left: 64.196px;
+	top: 0px;
+}
+#pupils {
+	position: absolute;
+	width: 89.316px;
+	height: 30.744px;
+	left: 34.216px;
+	top: 148.843px;
+	overflow: visible;
 }
 #r_pupil {
 	fill: rgba(0,0,0,1);
@@ -163,8 +186,8 @@ body{
 	overflow: visible;
 	width: 27.911px;
 	height: 30.744px;
-	left: 37.74px;
-	top: 218.412px;
+	left: 0px;
+	top: 0px;
 }
 #l_pupil {
 	fill: rgba(0,0,0,1);
@@ -174,8 +197,8 @@ body{
 	overflow: visible;
 	width: 27.911px;
 	height: 30.744px;
-	left: 99.145px;
-	top: 218.412px;
+	left: 61.405px;
+	top: 0px;
 }
 #mouth {
 	fill: transparent;
@@ -191,22 +214,30 @@ body{
 	position: absolute;
 	width: 121.328px;
 	height: 18.846px;
-	left: 24.211px;
-	top: 282.414px;
+	left: 20.687px;
+	top: 212.845px;
 	transform: matrix(1,0,0,1,0,0);
+}
+#hands {
+	position: absolute;
+	width: 177.636px;
+	height: 51.602px;
+	left: 71.182px;
+	top: 234.69px;
+	overflow: visible;
 }
 #r_hand {
 	position: absolute;
 	width: 76.544px;
 	height: 51.601px;
-	left: 165.274px;
-	top: 456.12px;
+	left: 101.092px;
+	top: 0.002px;
 	overflow: visible;
 }
-#Path_15 {
+#r_finger3 {
 	fill: rgba(241,188,230,1);
 }
-.Path_15 {
+.r_finger3 {
 	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
 	overflow: visible;
 	position: absolute;
@@ -217,10 +248,10 @@ body{
 	left: 0px;
 	top: 0px;
 }
-#Path_16 {
+#r_finger2 {
 	fill: rgba(241,188,230,1);
 }
-.Path_16 {
+.r_finger2 {
 	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
 	overflow: visible;
 	position: absolute;
@@ -231,10 +262,10 @@ body{
 	left: 0px;
 	top: 0px;
 }
-#Path_17 {
+#r_finger1 {
 	fill: rgba(241,188,230,1);
 }
-.Path_17 {
+.r_finger1 {
 	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
 	overflow: visible;
 	position: absolute;
@@ -249,14 +280,14 @@ body{
 	position: absolute;
 	width: 76.544px;
 	height: 51.6px;
-	left: 64.182px;
-	top: 456.118px;
+	left: 0px;
+	top: 0px;
 	overflow: visible;
 }
-#Path_18 {
+#l_finger3 {
 	fill: rgba(241,188,230,1);
 }
-.Path_18 {
+.l_finger3 {
 	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
 	overflow: visible;
 	position: absolute;
@@ -267,10 +298,10 @@ body{
 	left: 0px;
 	top: 0px;
 }
-#Path_19 {
+#l_finger2 {
 	fill: rgba(241,188,230,1);
 }
-.Path_19 {
+.l_finger2 {
 	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
 	overflow: visible;
 	position: absolute;
@@ -281,10 +312,10 @@ body{
 	left: 0px;
 	top: 0px;
 }
-#Path_20 {
+#l_finger1 {
 	fill: rgba(241,188,230,1);
 }
-.Path_20 {
+.l_finger1 {
 	filter: drop-shadow(0px -3px 6px rgba(0, 0, 0, 0.161));
 	overflow: visible;
 	position: absolute;
@@ -301,10 +332,9 @@ body{
 .grassFront {
 	overflow: visible;
 	position: absolute;
-	width: 305.49px;
+	width: 320px;
 	height: 455.743px;
-	left: 0.255px;
-	top: 220px;
+	left: 0px;
+	top: 238.859px;
 	transform: matrix(1,0,0,1,0,0);
 }
-

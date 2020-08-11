@@ -1,18 +1,23 @@
-const animateCSS = (element, animation, prefix = 'animate__') =>
-  // We create a Promise and return it
-  new Promise((resolve, reject) => {
-    const animationName = `${prefix}${animation}`;
-    const node = document.querySelector(element);
+const head = document.querySelector('.head');
+const hands = document.querySelector('.hands');
 
-    node.classList.add(`${prefix}animated`, animationName);
+head.style.setProperty('--animate-duration', '1s');
+hands.style.setProperty('--animate-duration', '.5s');
 
-    // When the animation ends, we clean the classes and resolve the Promise
-    function handleAnimationEnd() {
-      node.classList.remove(`${prefix}animated`, animationName);
-      node.removeEventListener('animationend', handleAnimationEnd);
+document.addEventListener('wheel',()=>{
+  console.log('START');
+  head.classList.toggle('animate__bounceInUp');
+  hands.classList.toggle('animate__bounceInUp');
 
-      resolve('Animation ended');
-    }
+})
 
-    node.addEventListener('animationend', handleAnimationEnd);
-  });
+head.addEventListener('animationend', () => {
+  console.log('END');
+  head.classList.toggle('animate__bounceInUp');
+  hands.classList.toggle('animate__bounceInUp');
+
+});
+
+
+
+
