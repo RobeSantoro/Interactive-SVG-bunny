@@ -1,0 +1,54 @@
+* {
+    transition: .2s;
+}
+
+body {
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clip-mask {
+    clip-path: url(#clip-path);
+}
+
+.fill-none {
+    fill: none;
+}
+
+.fill-white {
+    fill: #fff;
+}
+
+.fill-pink-dark {
+    fill: #db95d2;
+}
+
+.fill-pink-medium {
+    fill: #ffb5f0;
+}
+
+.fill-pink-light {
+    fill: #ffe6fa;
+}
+
+.fill-cyan {
+    fill: #29abe2;
+}
+
+.fill-brown {
+    fill: #744e1e;
+}
+
+.stroke-black {
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+}
+
+.drop-shadow {
+    box-shadow: -5px -5px 5px #888;
+-webkit-box-shadow: -5px -5px 5px #888;
+
+}
