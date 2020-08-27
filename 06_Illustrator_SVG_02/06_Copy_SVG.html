@@ -18,13 +18,12 @@
                 xmlns:xlink="http://www.w3.org/1999/xlink" width="220" height="280" viewBox="0 0 220 280">
                 <defs>
                     <style>
-                        .cls-1,
-                        .cls-11 {
+                        .fill-none {
                             fill: none;
                         }
 
-                        .cls-2 {
-                            clip-path: url(#clip-path);
+                        .main-clip-path {
+                            clip-path: url(#main-clip-path);
                         }
 
                         .cls-3 {
@@ -51,35 +50,33 @@
                             fill: url(#radial-gradient-5);
                         }
 
-                        .cls-9 {
+                        .fill-white {
                             fill: #fff;
                         }
 
-                        .cls-10 {
+                        .fill-pink-dark {
                             fill: #f687b3;
                             stroke-linecap: round;
                         }
 
-                        .cls-10,
-                        .cls-11 {
+
+                        .stroke-black {
                             stroke: #000;
                             stroke-width: 2px;
-                        }
-
-                        .cls-11 {
                             stroke-miterlimit: 10;
                         }
 
-                        .cls-12 {
-                            clip-path: url(#clip-path-2);
+                        .Eye_R_clip-path {
+                            clip-path: url(#Eye_R_clip-path);
                         }
 
-                        .cls-13 {
+
+                        .Eye_L_clip-path {
+                            clip-path: url(#Eye_L_clip-path);
+                        }
+
+                        .fill-teal-light {
                             fill: #4fd1c5;
-                        }
-
-                        .cls-14 {
-                            clip-path: url(#clip-path-3);
                         }
 
                         .cls-15 {
@@ -122,8 +119,8 @@
                             fill: url(#radial-gradient-15);
                         }
                     </style>
-                    <clipPath id="clip-path" transform="translate(-49.4 -31.1)">
-                        <path class="cls-1" d="M49.7,255.9S46,290.1,156.3,290.1s114-34.2,114-34.2V29.9H50.3Z" />
+                    <clipPath id="main-clip-path" transform="translate(-49.4 -31.1)">
+                        <path class="fill-none" d="M49.7,255.9S46,290.1,156.3,290.1s114-34.2,114-34.2V29.9H50.3Z" />
                     </clipPath>
                     <linearGradient id="linear-gradient" x1="2.38" y1="317.01" x2="2.38" y2="316.01"
                         gradientTransform="matrix(220.64, 0, 0, -66.41, -365.96, 21279.73)"
@@ -144,12 +141,17 @@
                         xlink:href="#radial-gradient" />
                     <radialGradient id="radial-gradient-5" cx="170.45" cy="140.7" fx="154.34465771373846" r="81.47"
                         xlink:href="#radial-gradient" />
-                    <clipPath id="clip-path-2" transform="translate(-49.4 -31.1)">
-                        <ellipse class="cls-1" cx="126.1" cy="182.1" rx="26.5" ry="37.7" />
+
+                    <!-- RIGHT EYE CLIP PATH -->
+                    <clipPath id="Eye_R_clip-path" transform="translate(-49.4 -31.1)">
+                        <ellipse class="fill-none blinkRight" cx="126.1" cy="182.1" rx="26.5" ry="37.7" />
                     </clipPath>
-                    <clipPath id="clip-path-3" transform="translate(-49.4 -31.1)">
-                        <ellipse class="cls-1" cx="191.7" cy="182.1" rx="27.9" ry="37.7" />
+
+                    <!-- LEFT EYE CLIP PATH -->
+                    <clipPath id="Eye_L_clip-path" transform="translate(-49.4 -31.1)">
+                        <ellipse class="fill-none blinkLeft" cx="191.7" cy="182.1" rx="27.9" ry="37.7" />
                     </clipPath>
+
                     <radialGradient id="radial-gradient-6" cx="104.52" cy="303.34" r="25.76"
                         xlink:href="#radial-gradient" />
                     <radialGradient id="radial-gradient-7" cx="104.63" cy="303.34" r="15.43"
@@ -171,121 +173,133 @@
                     <radialGradient id="radial-gradient-15" cx="129.73" cy="280.71" r="14.52"
                         xlink:href="#radial-gradient" />
                 </defs>
-                <g class="cls-2">
-                    <g id="Mask_Group" data-name="Mask Group">
-                        <g id="Rabbit">
-                            <path id="holeMaterial" class="cls-3"
-                                d="M49.4,255.9s1.9-28.5,111.8-28.5S270,255.9,270,255.9v37.9H49.4Z"
-                                transform="translate(-49.4 -31.1)" />
-                            <g id="head">
-                                <g id="ears">
-                                    <g id="r_ear" data-name="r ear">
-                                        <path id="_outsideEar" data-name=" outsideEar" class="cls-4"
-                                            d="M199.9,165s23-34.9,31.5-66.1,1.5-65.6-18.3-67.5-29.9,35.9-35,63.1-4.7,68.4-.7,68.7Z"
-                                            transform="translate(-49.4 -31.1)" />
-                                        <path id="r_insideEar" data-name="r insideEar" class="cls-5"
-                                            d="M219.5,100.5c6-24.6,1.2-45.4-8.7-46.4s-20.9,22.3-24.9,43.7a146.7,146.7,0,0,0-2.6,37.4c.1,9.3,10.1,14,20,2.9C210.8,129.8,216.9,111.4,219.5,100.5Z"
-                                            transform="translate(-49.4 -31.1)" />
-                                    </g>
-                                    <g id="l_ear" data-name="l ear">
-                                        <path id="l_outsideEar" data-name="l outsideEar" class="cls-6"
-                                            d="M119.7,165.1s-22.9-35-31.4-66.3-1.6-65.7,18.1-67.6,29.7,36,34.8,63.3,4.8,68.5.8,68.8Z"
-                                            transform="translate(-49.4 -31.1)" />
-                                        <path id="l_inside_ear" data-name="l inside ear" class="cls-7"
-                                            d="M99.8,100.5c-5.9-24.6-1.2-45.4,8.8-46.4s20.9,22.3,24.9,43.7a151.4,151.4,0,0,1,2.6,37.4c-.1,9.3-10.1,14-20,2.9C108.6,129.7,102.5,111.4,99.8,100.5Z"
-                                            transform="translate(-49.4 -31.1)" />
-                                    </g>
-                                </g>
-                                <path id="head_shape" data-name="head shape" class="cls-8"
-                                    d="M159.7,122.8c42.4,0,76.7,33.7,76.7,75.2,0,80,5.7,115.7-74.8,117.3S82.9,275.1,82.9,198C82.9,156.5,117.3,122.8,159.7,122.8Z"
+                <g id="Rabbit" class="main-clip-path">
+                    <path id="holeMaterial" class="cls-3"
+                        d="M49.4,255.9s1.9-28.5,111.8-28.5S270,255.9,270,255.9v37.9H49.4Z"
+                        transform="translate(-49.4 -31.1)" />
+
+                    <!-- HEAD -->
+                    <g id="head">
+                        <g id="ears">
+                            <g id="r_ear" data-name="r ear">
+                                <path id="_outsideEar" data-name=" outsideEar" class="cls-4"
+                                    d="M199.9,165s23-34.9,31.5-66.1,1.5-65.6-18.3-67.5-29.9,35.9-35,63.1-4.7,68.4-.7,68.7Z"
                                     transform="translate(-49.4 -31.1)" />
-                                <g id="teeth">
-                                    <path id="r_tooth" data-name="r tooth" class="cls-9"
-                                        d="M145.8,251a5.8,5.8,0,0,0,5.9,5.9h7.8V239.2H145.8Z"
-                                        transform="translate(-49.4 -31.1)" />
-                                    <path id="l_tooth" data-name="l tooth" class="cls-9"
-                                        d="M160.8,239.2v17.7h7.3a6.5,6.5,0,0,0,6.5-6.5h0V239.2Z"
-                                        transform="translate(-49.4 -31.1)" />
-                                </g>
-                                <g id="mouth_grp" data-name="mouth grp">
-                                    <path id="mouth" class="cls-10"
-                                        d="M100,228.7c0,8.6,23.1,16.9,59.7,16.9s59.6-8.1,59.6-16.9"
-                                        transform="translate(-49.4 -31.1)" />
-                                    <line id="nose_line" data-name="nose line" class="cls-11" x1="110.5" y1="195.8"
-                                        x2="110.5" y2="214.8" />
-                                </g>
-                                <g id="eyes_base" data-name="eyes base">
-                                    <ellipse id="r_eye-2" data-name="r eye-2" class="cls-9" cx="76.7" cy="151" rx="26.5"
-                                        ry="37.7" />
-                                    <ellipse id="l_eye-2" data-name="l eye-2" class="cls-9" cx="142.3" cy="151"
-                                        rx="27.9" ry="37.7" />
-                                </g>
-                                <g id="eyes_inside" data-name="eyes inside">
-                                    <g class="cls-12">
-                                        <g id="r_eye_clip-grp" class="eye" data-name="r eye clip-grp">
-                                            <circle id="r_iris" data-name="r iris" class="cls-13" cx="76.1" cy="151"
-                                                r="20" />
-                                            <circle id="r_pupil" data-name="r pupil" cx="76.1" cy="151" r="15" />
-                                            <path id="r_star" data-name="r star" class="cls-9"
-                                                d="M118.1,169.3c0,6.4,1.6,6.7,5.9,7-4.4.1-5.8,1.8-5.9,6.9,0-5.1-2.2-6.9-5.8-6.9C116.4,176,118.2,176,118.1,169.3Z"
-                                                transform="translate(-49.4 -31.1)" />
-                                        </g>
-                                    </g>
-                                    <g class="cls-14">
-                                        <g id="l_eye_clip-grp" class="eye" data-name="l eye clip-grp">
-                                            <circle id="l_iris" data-name="l iris" class="cls-13" cx="142.5" cy="151"
-                                                r="21" />
-                                            <circle id="l_pupil" data-name="l pupil" cx="142.5" cy="151" r="15" />
-                                            <path id="l_star" data-name="l star" class="cls-9"
-                                                d="M186.1,169.3c0,6.4,1.6,6.7,5.9,7-4.4.1-5.8,1.8-5.9,6.9,0-5.1-2.2-6.9-5.8-6.9C184.4,176,186.2,176,186.1,169.3Z"
-                                                transform="translate(-49.4 -31.1)" />
-                                        </g>
-                                    </g>
-                                </g>
-                                <circle id="nose" cx="110.5" cy="185.8" r="10" />
+                                <path id="r_insideEar" data-name="r insideEar" class="cls-5"
+                                    d="M219.5,100.5c6-24.6,1.2-45.4-8.7-46.4s-20.9,22.3-24.9,43.7a146.7,146.7,0,0,0-2.6,37.4c.1,9.3,10.1,14,20,2.9C210.8,129.8,216.9,111.4,219.5,100.5Z"
+                                    transform="translate(-49.4 -31.1)" />
                             </g>
-                            <g id="hands">
-                                <g id="palms">
-                                    <g id="r_palm" data-name="r palm">
-                                        <path id="r_palm_outside" data-name="r palm outside" class="cls-15"
-                                            d="M132.5,300.7c1.8,12.7-9.4,24.1-24.8,25.6S78.2,318.6,76.5,306s9.4-24.1,24.9-25.6S130.8,288,132.5,300.7Z"
-                                            transform="translate(-49.4 -31.1)" />
-                                        <path id="r_palm_inside" data-name="r palm inside" class="cls-16"
-                                            d="M121.4,301.8c1,7.6-5.6,14.4-14.9,15.3s-17.6-4.6-18.6-12.2,5.6-14.4,14.8-15.3S120.4,294.2,121.4,301.8Z"
-                                            transform="translate(-49.4 -31.1)" />
-                                    </g>
-                                    <g id="l_palm" data-name="l palm">
-                                        <path id="l_palm_outside" data-name="l palm outside" class="cls-17"
-                                            d="M217.7,280.4c15.4,1.5,26.6,12.9,24.8,25.6s-15.7,21.7-31.1,20.3-26.6-12.9-24.9-25.6S202.2,279,217.7,280.4Z"
-                                            transform="translate(-49.4 -31.1)" />
-                                        <path id="l_palm-2" data-name="l palm-2" class="cls-18"
-                                            d="M216.4,289.6c9.3.9,15.9,7.7,14.9,15.3s-9.4,13.1-18.7,12.2-15.9-7.7-14.9-15.3S207.1,288.7,216.4,289.6Z"
-                                            transform="translate(-49.4 -31.1)" />
-                                    </g>
-                                </g>
-                                <g id="r_hand" data-name="r hand">
-                                    <path id="r_finger3-2" data-name="r finger3-2" class="cls-19"
-                                        d="M183.8,264.9c7-1.5,14.1,4.5,15.9,13.3s-2.4,17.1-9.4,18.5-14.1-4.5-15.9-13.3S176.8,266.3,183.8,264.9Z"
-                                        transform="translate(-49.4 -31.1)" />
-                                    <path id="r_finger2-2" data-name="r finger2-2" class="cls-20"
-                                        d="M205.9,260.4c6.7-1.4,13.7,4.6,15.5,13.4s-2.3,17-9.1,18.4-13.7-4.6-15.5-13.4S199.1,261.8,205.9,260.4Z"
-                                        transform="translate(-49.4 -31.1)" />
-                                    <path id="r_finger1-2" data-name="r finger1-2" class="cls-21"
-                                        d="M227.6,255.9c6.7-1.3,13.7,4.7,15.5,13.5s-2.3,17-9.1,18.4-13.7-4.6-15.5-13.4S220.8,257.3,227.6,255.9Z"
-                                        transform="translate(-49.4 -31.1)" />
-                                </g>
-                                <g id="l_hand" data-name="l hand">
-                                    <path id="l_finger3-2" data-name="l finger3-2" class="cls-22"
-                                        d="M89,256.1c7,1.4,11.3,9.7,9.6,18.5S89.8,289.4,82.8,288s-11.3-9.6-9.6-18.4S82,254.8,89,256.1Z"
-                                        transform="translate(-49.4 -31.1)" />
-                                    <path id="l_finger2-2" data-name="l finger2-2" class="cls-23"
-                                        d="M111.1,260.5c6.8,1.3,10.9,9.6,9.2,18.4s-8.6,14.8-15.4,13.5S94,282.8,95.7,274,104.3,259.2,111.1,260.5Z"
-                                        transform="translate(-49.4 -31.1)" />
-                                    <path id="l_finger1-2" data-name="l finger1-2" class="cls-24"
-                                        d="M132.9,264.8c6.8,1.3,10.9,9.5,9.1,18.3s-8.6,14.9-15.4,13.6-10.9-9.6-9.2-18.4S126.1,263.4,132.9,264.8Z"
+                            <g id="l_ear" data-name="l ear">
+                                <path id="l_outsideEar" data-name="l outsideEar" class="cls-6"
+                                    d="M119.7,165.1s-22.9-35-31.4-66.3-1.6-65.7,18.1-67.6,29.7,36,34.8,63.3,4.8,68.5.8,68.8Z"
+                                    transform="translate(-49.4 -31.1)" />
+                                <path id="l_inside_ear" data-name="l inside ear" class="cls-7"
+                                    d="M99.8,100.5c-5.9-24.6-1.2-45.4,8.8-46.4s20.9,22.3,24.9,43.7a151.4,151.4,0,0,1,2.6,37.4c-.1,9.3-10.1,14-20,2.9C108.6,129.7,102.5,111.4,99.8,100.5Z"
+                                    transform="translate(-49.4 -31.1)" />
+                            </g>
+                        </g>
+
+                        <!-- HeadShape -->
+                        <g id="head_shape" data-name="head shape">
+                            <path class="cls-8"
+                                d="M159.7,122.8c42.4,0,76.7,33.7,76.7,75.2,0,80,5.7,115.7-74.8,117.3S82.9,275.1,82.9,198C82.9,156.5,117.3,122.8,159.7,122.8Z"
+                                transform="translate(-49.4 -31.1)" />
+                        </g>
+                        <!-- MOUTH -->
+                        <g id="mouth_grp" data-name="mouth grp">
+                            <g id="teeth">
+                                <path id="r_tooth" data-name="r tooth" class="fill-white"
+                                    d="M145.8,251a5.8,5.8,0,0,0,5.9,5.9h7.8V239.2H145.8Z"
+                                    transform="translate(-49.4 -31.1)" />
+                                <path id="l_tooth" data-name="l tooth" class="fill-white"
+                                    d="M160.8,239.2v17.7h7.3a6.5,6.5,0,0,0,6.5-6.5h0V239.2Z"
+                                    transform="translate(-49.4 -31.1)" />
+                            </g>
+                            <path id="mouth" class="fill-pink-dark stroke-black"
+                                d="M100,228.7c0,8.6,23.1,16.9,59.7,16.9s59.6-8.1,59.6-16.9"
+                                transform="translate(-49.4 -31.1)" />
+                            <line id="nose_line" data-name="nose line" class="stroke-black fill-none" x1="110.5"
+                                y1="195.8" x2="110.5" y2="214.8" />
+                            <circle id="nose" cx="110.5" cy="185.8" r="10" />
+                        </g>
+
+                        <g id="eyes_base" data-name="eyes base">
+                            <!-- RIGHT EYE BASE -->
+                            <ellipse id="r_eye-2" data-name="r eye-2" class="fill-white blinkRight" cx="76.7" cy="151"
+                                rx="26.5" ry="37.7" />
+                            <!-- LEFT EYE BASE -->
+                            <ellipse id="l_eye-2" data-name="l eye-2" class="fill-white blinkLeft" cx="142.3" cy="151"
+                                rx="27.9" ry="37.7" />
+                        </g>
+
+                        <g id="eyes_inside" data-name="eyes inside">
+                            <!-- RIGHT EYE -->
+                            <g class="Eye_R_clip-path">
+                                <g id="r_eye_clip-grp" class="eye" data-name="r eye clip-grp">
+                                    <circle id="r_iris" data-name="r iris" class="fill-teal-light" cx="76.1" cy="151"
+                                        r="20" />
+                                    <circle id="r_pupil" data-name="r pupil" cx="76.1" cy="151" r="15" />
+                                    <path id="r_star" data-name="r star" class="fill-white"
+                                        d="M118.1,169.3c0,6.4,1.6,6.7,5.9,7-4.4.1-5.8,1.8-5.9,6.9,0-5.1-2.2-6.9-5.8-6.9C116.4,176,118.2,176,118.1,169.3Z"
                                         transform="translate(-49.4 -31.1)" />
                                 </g>
                             </g>
+                            <!-- LEFT EYE -->
+                            <g class="Eye_L_clip-path">
+                                <g id="l_eye_clip-grp" class="eye" data-name="l eye clip-grp">
+                                    <circle id="l_iris" data-name="l iris" class="fill-teal-light" cx="142.5" cy="151"
+                                        r="21" />
+                                    <circle id="l_pupil" data-name="l pupil" cx="142.5" cy="151" r="15" />
+                                    <path id="l_star" data-name="l star" class="fill-white"
+                                        d="M186.1,169.3c0,6.4,1.6,6.7,5.9,7-4.4.1-5.8,1.8-5.9,6.9,0-5.1-2.2-6.9-5.8-6.9C184.4,176,186.2,176,186.1,169.3Z"
+                                        transform="translate(-49.4 -31.1)" />
+                                </g>
+                            </g>
+                        </g>
+
+                    </g>
+
+                    <!-- HANDS -->
+                    <g id="hands">
+                        <g id="palms">
+                            <g id="r_palm" data-name="r palm">
+                                <path id="r_palm_outside" data-name="r palm outside" class="cls-15"
+                                    d="M132.5,300.7c1.8,12.7-9.4,24.1-24.8,25.6S78.2,318.6,76.5,306s9.4-24.1,24.9-25.6S130.8,288,132.5,300.7Z"
+                                    transform="translate(-49.4 -31.1)" />
+                                <path id="r_palm_inside" data-name="r palm inside" class="cls-16"
+                                    d="M121.4,301.8c1,7.6-5.6,14.4-14.9,15.3s-17.6-4.6-18.6-12.2,5.6-14.4,14.8-15.3S120.4,294.2,121.4,301.8Z"
+                                    transform="translate(-49.4 -31.1)" />
+                            </g>
+                            <g id="l_palm" data-name="l palm">
+                                <path id="l_palm_outside" data-name="l palm outside" class="cls-17"
+                                    d="M217.7,280.4c15.4,1.5,26.6,12.9,24.8,25.6s-15.7,21.7-31.1,20.3-26.6-12.9-24.9-25.6S202.2,279,217.7,280.4Z"
+                                    transform="translate(-49.4 -31.1)" />
+                                <path id="l_palm-2" data-name="l palm-2" class="cls-18"
+                                    d="M216.4,289.6c9.3.9,15.9,7.7,14.9,15.3s-9.4,13.1-18.7,12.2-15.9-7.7-14.9-15.3S207.1,288.7,216.4,289.6Z"
+                                    transform="translate(-49.4 -31.1)" />
+                            </g>
+                        </g>
+                        <g id="l_hand" data-name="l hand" transform="translate(10 0)">
+                            <path id="l_finger3" data-name="l finger3-2" class="cls-19"
+                                d="M183.8,264.9c7-1.5,14.1,4.5,15.9,13.3s-2.4,17.1-9.4,18.5-14.1-4.5-15.9-13.3S176.8,266.3,183.8,264.9Z"
+                                transform="translate(-49.4 -31.1)" />
+                            <path id="l_finger2" data-name="l finger2-2" class="cls-20"
+                                d="M205.9,260.4c6.7-1.4,13.7,4.6,15.5,13.4s-2.3,17-9.1,18.4-13.7-4.6-15.5-13.4S199.1,261.8,205.9,260.4Z"
+                                transform="translate(-49.4 -31.1)" />
+                            <path id="l_finger1" data-name="l finger1-2" class="cls-21"
+                                d="M227.6,255.9c6.7-1.3,13.7,4.7,15.5,13.5s-2.3,17-9.1,18.4-13.7-4.6-15.5-13.4S220.8,257.3,227.6,255.9Z"
+                                transform="translate(-49.4 -31.1)" />
+                        </g>
+                        <g id="r_hand" data-name="r hand" transform="translate(-10 0)">
+                            <path id="r_finger3" data-name="r finger3-2" class="cls-22"
+                                d="M89,256.1c7,1.4,11.3,9.7,9.6,18.5S89.8,289.4,82.8,288s-11.3-9.6-9.6-18.4S82,254.8,89,256.1Z"
+                                transform="translate(-49.4 -31.1)" />
+                            <path id="r_finger2" data-name="r finger2-2" class="cls-23"
+                                d="M111.1,260.5c6.8,1.3,10.9,9.6,9.2,18.4s-8.6,14.8-15.4,13.5S94,282.8,95.7,274,104.3,259.2,111.1,260.5Z"
+                                transform="translate(-49.4 -31.1)" />
+                            <path id="r_finger1" data-name="r finger1-2" class="cls-24"
+                                d="M132.9,264.8c6.8,1.3,10.9,9.5,9.1,18.3s-8.6,14.9-15.4,13.6-10.9-9.6-9.2-18.4S126.1,263.4,132.9,264.8Z"
+                                transform="translate(-49.4 -31.1)" />
                         </g>
                     </g>
                 </g>
@@ -318,7 +332,7 @@
                         </span>
                     </label>
                 </div>
-                <button
+                <button onclick="blink()"
                     class="bg-gradient-to-b from-pink-600 to-pink-800 focus:from-pink-500 focus:to-pink-700 hover:from-pink-500 hover:to-pink-700 text-white font-semibold px-4 py-2 rounded w-full md:my-4"
                     type="button">
                     Sign In

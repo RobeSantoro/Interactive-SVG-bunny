@@ -1,7 +1,7 @@
-*{
-    transition: .25s;
-}
-
 .mt-vh {
     margin-top: -2vh;
+}
+
+.blinkLeft, .blinkRight {
+    transition: 0.05s;
 }
