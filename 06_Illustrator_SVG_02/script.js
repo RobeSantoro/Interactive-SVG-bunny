@@ -1,4 +1,3 @@
-
 let eyes = document.querySelectorAll(".eye");
 let eyes_base = document.querySelector("#eyes_base");
 let eyes_inside = document.querySelector("#eyes_inside");
