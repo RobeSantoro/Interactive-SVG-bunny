@@ -73,3 +73,21 @@ function scaleBetween(v, newMin, newMax, oldMin, oldMax) {
      */
     return ((v - oldMin) / (oldMax - oldMin)) * (newMax - newMin) + newMin;
 }
+
+let head = document.querySelector("#head");
+let hands = document.querySelector("#hands");
+
+let windowHeight = window.innerHeight;
+
+head.setAttribute("style", `translate: 0px ${windowHeight}px`);
+hands.setAttribute("style", `translate: 0px ${windowHeight}px`);
+
+
+anime({
+    targets: [hands, head],
+    translateY: (window.innerHeight)*-1,
+    duration: 800,
+    delay: anime.stagger(500) ,
+    easing: 'easeInOutExpo',
+    round: 10 
+  });
