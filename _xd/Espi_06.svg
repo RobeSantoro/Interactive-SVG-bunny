@@ -1,0 +1,146 @@
+<svg id="RabbitSVG" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220.6" height="295.3" viewBox="0 0 220.6 295.3">
+  <defs>
+    <style>
+      .cls-1, .cls-8 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #744e1e;
+      }
+
+      .cls-4, .cls-7 {
+        fill: #ffb5f0;
+      }
+
+      .cls-5 {
+        fill: #ffe6fa;
+      }
+
+      .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-7, .cls-8 {
+        stroke: #000;
+        stroke-width: 2px;
+      }
+
+      .cls-7 {
+        stroke-linecap: round;
+      }
+
+      .cls-8 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-9 {
+        clip-path: url(#clip-path-2);
+      }
+
+      .cls-10 {
+        fill: #29abe2;
+      }
+
+      .cls-11 {
+        clip-path: url(#clip-path-3);
+      }
+
+      .cls-12 {
+        fill: #db95d2;
+      }
+
+      .cls-13 {
+        fill: #f2a0e3;
+      }
+    </style>
+    <clipPath id="clip-path" transform="translate(-49.4 -31.1)">
+      <path class="cls-1" d="M49.7,255.9S46,290.1,156.3,290.1s114-34.2,114-34.2V29.9H50.3Z"/>
+    </clipPath>
+    <clipPath id="clip-path-2" transform="translate(-49.4 -31.1)">
+      <ellipse id="r_eye" data-name="r eye" class="cls-1" cx="126.1" cy="182.1" rx="26.5" ry="37.7"/>
+    </clipPath>
+    <clipPath id="clip-path-3" transform="translate(-49.4 -31.1)">
+      <ellipse id="l_eye" data-name="l eye" class="cls-1" cx="191.7" cy="182.1" rx="27.9" ry="37.7"/>
+    </clipPath>
+  </defs>
+  <g class="cls-2">
+    <g id="Rabbit">
+      <path id="holeMaterial" class="cls-3" d="M49.4,255.9s1.9-28.5,111.8-28.5S270,255.9,270,255.9v37.9H49.4Z" transform="translate(-49.4 -31.1)"/>
+      <g id="ears">
+        <g id="r_ear" data-name="r ear">
+          <path id="_outsideEar" data-name=" outsideEar" class="cls-4" d="M199.9,165s23-34.9,31.5-66.1,1.5-65.6-18.3-67.5-29.9,35.9-35,63.1-4.7,68.4-.7,68.7Z" transform="translate(-49.4 -31.1)"/>
+          <path id="r_insideEar" data-name="r insideEar" class="cls-5" d="M219.5,100.5c6-24.6,1.2-45.4-8.7-46.4s-21,22.3-24.9,43.7a146.7,146.7,0,0,0-2.6,37.4c.1,9.3,10.1,14,20,2.9C210.8,129.8,216.9,111.4,219.5,100.5Z" transform="translate(-49.4 -31.1)"/>
+        </g>
+        <g id="l_ear" data-name="l ear">
+          <path id="l_outsideEar" data-name="l outsideEar" class="cls-4" d="M119.7,165.1s-22.9-35-31.4-66.3-1.6-65.7,18.1-67.6,29.7,36,34.8,63.3,4.8,68.5.8,68.8Z" transform="translate(-49.4 -31.1)"/>
+          <path id="l_inside_ear" data-name="l inside ear" class="cls-5" d="M99.8,100.5c-5.9-24.6-1.2-45.4,8.8-46.4s20.9,22.3,24.9,43.7a151.4,151.4,0,0,1,2.6,37.4c-.1,9.3-10.1,14-20,2.9C108.6,129.7,102.5,111.4,99.8,100.5Z" transform="translate(-49.4 -31.1)"/>
+        </g>
+      </g>
+      <g id="head">
+        <path id="head_shape" data-name="head shape" class="cls-4" d="M159.7,122.8a76.7,76.7,0,0,1,76.7,76.8c0,81.7,5.7,118.2-74.8,119.9S82.9,278.4,82.9,199.6A76.8,76.8,0,0,1,159.7,122.8Z" transform="translate(-49.4 -31.1)"/>
+        <g id="teeth">
+          <path id="r_tooth" class="cls-6" d="M145.8,254a5.8,5.8,0,0,0,5.9,5.9h7.8V242.2H145.8Z" transform="translate(-49.4 -31.1)"/>
+          <path id="l_tooth" class="cls-6" d="M160.8,242.2v17.7h7.3a6.5,6.5,0,0,0,6.5-6.5V242.2Z" transform="translate(-49.4 -31.1)"/>
+        </g>
+        <g id="mouth_grp">
+          <path id="mouth" class="cls-7" d="M100,228.7c0,8.6,23.1,16.9,59.7,16.9s59.6-8.1,59.6-16.9" transform="translate(-49.4 -31.1)"/>
+          <line id="nose_line" class="cls-8" x1="110.5" y1="195.8" x2="110.5" y2="214.8"/>
+        </g>
+        <g id="eyes">
+          <ellipse id="r_eye-2" data-name="r eye" class="cls-6" cx="76.7" cy="151" rx="26.5" ry="37.7"/>
+          <ellipse id="l_eye-2" data-name="l eye" class="cls-6" cx="142.3" cy="151" rx="27.9" ry="37.7"/>
+        </g>
+        <g id="eyes_inside">
+          <g class="cls-9">
+            <g id="r_iris" data-name="r iris">
+              <circle class="cls-10" cx="76.1" cy="151" r="20"/>
+            </g>
+            <g id="r_pupil" data-name="r pupil">
+              <circle cx="76.1" cy="151" r="15"/>
+            </g>
+            <path id="r_star" class="cls-6" d="M118.1,169.3c0,6.4,1.6,6.7,5.9,7-4.4.1-5.8,1.8-5.9,6.9,0-5.1-2.2-6.9-5.8-6.9C116.4,176,118.2,176,118.1,169.3Z" transform="translate(-49.4 -31.1)"/>
+          </g>
+          <g class="cls-11">
+            <g id="l_iris" data-name="l iris">
+              <circle class="cls-10" cx="142.5" cy="151" r="21"/>
+            </g>
+            <g id="l_pupil" data-name="l pupil">
+              <circle cx="142.5" cy="151" r="15"/>
+            </g>
+            <path id="l_star" class="cls-6" d="M186.1,169.3c0,6.4,1.6,6.7,5.9,7-4.4.1-5.8,1.8-5.9,6.9,0-5.1-2.2-6.9-5.8-6.9C184.4,176,186.2,176,186.1,169.3Z" transform="translate(-49.4 -31.1)"/>
+          </g>
+        </g>
+        <g id="nose">
+          <circle cx="110.5" cy="185.8" r="10"/>
+        </g>
+      </g>
+      <g id="palms">
+        <g id="r_palm">
+          <path id="r_palm_outside" class="cls-12" d="M132.5,300.7c1.8,12.7-9.4,24.1-24.8,25.6S78.2,318.6,76.5,306s9.4-24.1,24.9-25.6S130.8,288,132.5,300.7Z" transform="translate(-49.4 -31.1)"/>
+          <path id="r_palm_inside" class="cls-4" d="M121.4,301.8c1,7.6-5.6,14.4-14.9,15.3s-17.6-4.6-18.6-12.2,5.6-14.4,14.8-15.3S120.4,294.2,121.4,301.8Z" transform="translate(-49.4 -31.1)"/>
+        </g>
+        <g id="l_palm">
+          <path id="l_palm_outside" class="cls-12" d="M217.7,280.4c15.4,1.5,26.6,12.9,24.8,25.6s-15.7,21.7-31.1,20.3-26.6-12.9-24.9-25.6S202.2,279,217.7,280.4Z" transform="translate(-49.4 -31.1)"/>
+          <path id="l_palm-2" data-name="l_palm" class="cls-4" d="M216.4,289.6c9.3.9,15.9,7.7,14.9,15.3s-9.4,13.1-18.7,12.2-15.9-7.7-14.9-15.3S207.1,288.7,216.4,289.6Z" transform="translate(-49.4 -31.1)"/>
+        </g>
+      </g>
+      <g id="hands">
+        <g id="r_hand" data-name="r hand">
+          <path id="r_finger3" data-name="r finger3" class="cls-13" d="M183.8,264.9c7-1.5,14.1,4.5,15.9,13.3s-2.4,17.1-9.4,18.5-14.1-4.5-15.9-13.3S176.8,266.3,183.8,264.9Z" transform="translate(-49.4 -31.1)"/>
+          <path id="r_finger2" data-name="r finger2" class="cls-13" d="M205.9,260.4c6.7-1.4,13.7,4.6,15.5,13.4s-2.3,17-9.1,18.4-13.7-4.6-15.5-13.4S199.1,261.8,205.9,260.4Z" transform="translate(-49.4 -31.1)"/>
+          <path id="r_finger1" data-name="r finger1" class="cls-13" d="M227.6,255.9c6.7-1.3,13.7,4.7,15.5,13.5s-2.3,17-9.1,18.4-13.7-4.6-15.5-13.4S220.8,257.3,227.6,255.9Z" transform="translate(-49.4 -31.1)"/>
+        </g>
+        <g id="l_hand" data-name="l hand">
+          <path id="l_finger3" data-name="l finger3" class="cls-13" d="M89,256.1c7,1.4,11.3,9.7,9.6,18.5S89.8,289.4,82.8,288s-11.3-9.6-9.6-18.4S82,254.8,89,256.1Z" transform="translate(-49.4 -31.1)"/>
+          <path id="l_finger2" data-name="l finger2" class="cls-13" d="M111.1,260.5c6.8,1.3,10.9,9.6,9.2,18.4s-8.6,14.8-15.4,13.5S94,282.8,95.7,274,104.3,259.2,111.1,260.5Z" transform="translate(-49.4 -31.1)"/>
+          <path id="l_finger1" data-name="l finger1" class="cls-13" d="M132.9,264.8c6.8,1.3,10.9,9.5,9.1,18.3s-8.6,14.9-15.4,13.6-10.9-9.6-9.2-18.4S126.1,263.4,132.9,264.8Z" transform="translate(-49.4 -31.1)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
