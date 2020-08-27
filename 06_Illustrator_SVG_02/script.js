@@ -10,7 +10,7 @@ let head_shape = document.querySelector("#head_shape");
 let ears = document.querySelector('#ears');
 
 
-document.addEventListener('mousemove', function (e) {
+document.addEventListener('mousemove', function(e) {
 
     let vX = e.clientX;
     let vY = e.clientY;
@@ -72,5 +72,5 @@ function scaleBetween(v, newMin, newMax, oldMin, oldMax) {
      * @param {number} oldMin - Minimum (source) bound to scale from
      * @param {number} oldMax - Maximum (source) bound to scale from
      */
-    return ((v - oldMin) / (oldMax - oldMin)) * (newMax - newMin) + newMin
+    return ((v - oldMin) / (oldMax - oldMin)) * (newMax - newMin) + newMin;
 }
