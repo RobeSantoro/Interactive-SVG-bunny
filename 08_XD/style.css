@@ -1,3 +1,118 @@
 * {
-    transition: .05s;
+    transition: 0.15s;
+}
+
+.origin-center {
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+.headStart {
+    transition: 0.5s;
+    transform: translateY(-5px);
+}
+
+.headOnMail {
+    transition: 0.5s;
+    transform: translateY(-50px);
+}
+
+.headOnMail768 {
+    transition: 0.5s;
+    transform: translateY(-30px);
+}
+
+
+.headOnPassword {
+    transition: 0.5s;
+    transform: translateY(75px);
+}
+
+/*------------------------------*/
+
+/*----------SVG CLASSES---------*/
+
+/*------------------------------*/
+
+.fill-none {
+    fill: none;
+}
+
+.main-clip-path {
+    clip-path: url(#main-clip-path);
+}
+
+.hole-gradient {
+    fill: url(#linear-gradient);
+}
+
+.fill-pink-dark {
+    fill: #ffbac6;
+}
+
+.fill-pink {
+    fill: #ffd9e1;
+}
+
+.fill-white {
+    fill: #fff;
+}
+
+.stroke-black {
+    stroke: #000;
+    stroke-width: 2px;
+    stroke-miterlimit: 10;
+    stroke-linecap: round;
+}
+
+.l-eye-clip-path {
+    clip-path: url(#l-eye-clip-path);
+}
+
+.fill-cyan {
+    fill: #3fa9f5;
+}
+
+.r-eye-clip-path {
+    clip-path: url(#r-eye-clip-path);
+}
+
+.cls-12 {
+    filter: url(#l_finger_1);
+}
+
+.cls-13 {
+    filter: url(#l_finger_2);
+}
+
+.cls-14 {
+    filter: url(#l_finger_3);
+}
+
+.cls-15 {
+    filter: url(#r_finger_1);
+}
+
+.cls-16 {
+    filter: url(#r_finger_2);
+}
+
+.cls-17 {
+    filter: url(#r_finger_3);
+}
+
+/* .mouth-shadow {
+    filter: url(#mouthFilter);
+} */
+
+.l_tooth-shadow {
+    filter: url(#l_tooth);
+}
+
+.r_tooth-shadow {
+    filter: url(#r_tooth);
+}
+
+.cls-21 {
+    filter: url(#head_shape);
 }
