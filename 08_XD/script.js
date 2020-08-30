@@ -17,6 +17,7 @@ const eyes_base = document.querySelector("#eyes_base");
 const eyes_inside = document.querySelector("#eyes_inside");
 
 const mouth_grp = document.querySelector("#mouth_grp");
+const mouth = document.querySelector("#mouth");
 
 const head = document.querySelector("#head");
 const head_shape = document.querySelector("#head_shape");
@@ -29,12 +30,9 @@ const inputPassword = document.getElementById('Password');
 const LoginButton = document.querySelector('#LoginButton')
 
 
-window.addEventListener('load', function () {
-    // Everything has loaded!
-    head.classList.add('animate__animated' ,'animate__repeat-1', 'animate__delay-1s' , 'animate__bounceInUp');
-
-
-});
+// When the document is loaded
+if (window.attachEvent) window.attachEvent('load', onLoad);
+else window.addEventListener('load', onLoad);
 
 
 // When the Mouse moves on BODY
@@ -78,6 +76,14 @@ if (LoginButton.attachEvent) LoginButton.attachEvent('mouseout', mouseOutLogin);
 else LoginButton.addEventListener('mouseout', mouseOutLogin)
 
 
+
+function onLoad() {
+    // Everything has loaded!
+    head.classList.add( 'animate__animated' ,'animate__repeat-1', 'animate__bounceInUp', 'animate__delay-1s' );
+    hands.classList.add('animate__animated' ,'animate__repeat-1', 'animate__bounceInUp');
+
+}
+
 function eyesOnMouse() {
     console.log('eyesOnMouse');
 
@@ -118,11 +124,7 @@ function eyesOnMail() {
 
     let inputMailLength = inputEmail.value.length;
 
-    head.classList.remove('headOnPassword');
-
     if (window.innerWidth < 768) {
-
-        head.classList.remove('headOnMail');
 
         let vX = inputMailLength;
 
@@ -167,8 +169,6 @@ function eyesOnMail() {
     }
 
     else {
-
-        head.classList.add('headOnMail');
 
         let vX = inputMailLength;
 
@@ -218,21 +218,16 @@ function eyesOnMail() {
 function eyesOnPassword() {
     console.log("eyesOnPassword");
 
-    head.classList.remove('headOnMail');
-    head.classList.remove('headUp');
-
-    //head.classList.add('headOnPassword');
-    head.setAttribute('style' , 'transform: translate(0px, 130px); transition: 1s;')
 }
 
 function mouseOverLogin() {
-    console.log('Ready to Login');
+    console.log('mouseOverLogin');
 
-    head.classList.remove('headOnMail');
-    head.classList.remove('headOnPassword');
+
     head.classList.remove('animate__bounceInUp');
     head.classList.remove('animate__repeat-1');
     head.classList.remove('animate__delay-2s');
+
 
     let inputMailLength = inputEmail.value.length;
     let inputMailContainsAt = inputEmail.value.includes('@');
@@ -259,8 +254,8 @@ function mouseOverLogin() {
         head.classList.add('animate__fast');
         head.classList.add('animate__shakeX');
 
-        pupils.classList.add('animate__animated');
-        pupils.classList.add('animate__headShake');
+        eyes[0].classList.add('animate__animated');
+        eyes[1].classList.add('animate__headShake', 'animate__delay-1s');
 
         mouth.style.transform = 'scaleY(-1)';
 
@@ -285,6 +280,9 @@ function mouseOverLogin() {
 }
 
 function mouseOutLogin() {
+    console.log('mouseOutLogin');
+
+
     head.classList.remove('animate__shakeX');
     head.classList.remove('animate__tada');
     hands.classList.remove('animate__tada');

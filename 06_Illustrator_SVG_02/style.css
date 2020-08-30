@@ -1,7 +1,88 @@
-.mt-vh {
-    margin-top: -2vh;
+/* *{
+    transition: .1s;
+} */
+
+.headUp {
+    animation-name: headUp;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
 }
 
-.blinkLeft, .blinkRight {
-    transition: 0.05s;
+@keyframes headUp {
+    0% {
+        transform: translate(0px, 320px)
+    }
+    100% {
+        transform: translate(0px, 60px)
+    }
+}
+
+.handsUp {
+    animation-name: handsUp;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes handsUp {
+    0% {
+        transform: translate(-50px, 100px)
+    }
+    100% {
+        transform: translate(-50px, 15px)
+    }
+}
+
+
+.headOnMail {
+    animation-name: headOnMail;
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+
+@keyframes headOnMail {
+    0% {
+        transform: translate(0px, 60px)
+    }
+    100% {
+        transform: translate(0px, 20px)
+    }
+}
+
+.headOnPassword {
+    translate: 0px 90px;
+    transition: .15;
+}
+
+
+.blink {
+    transform: scaleY(.9);
+    transform-origin: center;
+    /*Animation*/
+    animation-name: blink;
+    animation-duration: .2s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+}
+
+@keyframes blink {
+    0% {
+        transform: scaleY(.9);
+    }
+    100% {
+        transform: scaleY(0);
+    }
 }
