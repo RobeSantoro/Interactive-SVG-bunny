@@ -7,25 +7,16 @@
     transform-box: fill-box;
 }
 
-.headStart {
-    transition: 0.5s;
-    transform: translateY(-5px);
+.headOnMail-md {
+    transform: translate(0px, -50px);
 }
 
 .headOnMail {
-    transition: 0.5s;
-    transform: translateY(-50px);
+    transform: translate(0px, -30px);
 }
-
-.headOnMail768 {
-    transition: 0.5s;
-    transform: translateY(-30px);
-}
-
 
 .headOnPassword {
-    transition: 0.5s;
-    transform: translateY(75px);
+    transform: translate(0px, 90px);
 }
 
 /*------------------------------*/

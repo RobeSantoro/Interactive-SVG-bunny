@@ -884,12 +884,12 @@
  0% {
   -webkit-transform:translateY(1200px) scale(.7);
   transform:translateY(1200px) scale(.7);
-  opacity:.7
+  opacity: 1
  }
  80% {
-  -webkit-transform:translateY(0) scale(.7);
-  transform:translateY(0) scale(.7);
-  opacity:.7
+  -webkit-transform:translateY(-20px) scale(.7);
+  transform:translateY(-20px) scale(.7);
+  opacity: 1
  }
  to {
   -webkit-transform:scale(1);
@@ -901,12 +901,12 @@
  0% {
   -webkit-transform:translateY(1200px) scale(.7);
   transform:translateY(1200px) scale(.7);
-  opacity:.7
+  opacity: 1
  }
  80% {
-  -webkit-transform:translateY(0) scale(.7);
-  transform:translateY(0) scale(.7);
-  opacity:.7
+  -webkit-transform:translateY(-20px) scale(.7);
+  transform:translateY(-20px) scale(.7);
+  opacity: 1
  }
  to {
   -webkit-transform:scale(1);
