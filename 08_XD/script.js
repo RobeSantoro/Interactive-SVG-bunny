@@ -111,10 +111,12 @@ function onLoad() {
 
 function eyesOnMouse() {
     //console.log('eyesOnMouse');
-
-    head.classList.remove('animate__repeat-1', 'animate__bounceInUp', 'animate__delay-1s', 'animate__fast');
     head.classList.remove('headOnMail', 'headOnMail-md', 'headStart');
 
+    setTimeout(() => {
+        head.classList.remove('animate__repeat-1', 'animate__bounceInUp', 'animate__delay-1s', 'animate__fast');
+    }, 2000);
+    
     let vX = event.clientX;
     let vY = event.clientY;
 
@@ -134,13 +136,12 @@ function eyesOnMouse() {
     let y = mapRange(vY, newMinY, newMaxY, oldMinY, oldMaxY);
 
     return faceFollowMouse(x, y);
-
 }
 
 function eyesOnMail() {
     console.log("EyesOnMail");
 
-    head.classList.remove('animate__repeat-1', 'animate__bounceInUp', 'animate__delay-1s');
+    head.classList.remove('animate__repeat-1', 'animate__bounceInUp', 'animate__delay-1s', 'animate__shakeX');
     head.classList.remove('headStart', 'headOnPassword');
 
     let inputMailLength = inputEmail.value.length;
@@ -166,7 +167,7 @@ function eyesOnMail() {
 
         } else { //avoid wrapping by mapRange
 
-            faceFollowMouse(newMaxXx, y);
+            faceFollowMouse(newMaxX, y);
         }
         return
     }
@@ -202,7 +203,7 @@ function eyesOnPassword() {
     console.log("eyesOnPassword");
 
     head.classList.remove('headOnMail-md', 'headOnMail');
-    head.classList.remove('animate__repeat-1', 'animate__bounceInUp', 'animate__delay-1s');
+    head.classList.remove('animate__repeat-1', 'animate__bounceInUp', 'animate__delay-1s', 'animate__shakeX');
 
     head.classList.add('headOnPassword');
 
