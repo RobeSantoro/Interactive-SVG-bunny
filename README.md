@@ -9,5 +9,5 @@ I made this repo to investigate all the possibility for SVG creation using:
 
 For the javascript side this is just an exercise, I'm not sure the logic is well implemented.
 
-The last attempt is the finale version:
-### 08_XD
+The last attempt is the final version:
+08_XD
