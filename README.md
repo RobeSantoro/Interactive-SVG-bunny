@@ -7,7 +7,7 @@ I made this repo to investigate all the possibility for SVG creation using:
 - WebExport plugin for Adobe XD
 - Straight export as SVG in Adobe XD
 
-For the javascript side this is just an exercise, I'm not sure the logic is well implemented.
+The javascript part this is just a simple exercise, I'm not sure the logic is well implemented.
 
 The last attempt is the final version:
 08_XD
