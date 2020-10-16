@@ -2,8 +2,9 @@
 
 
 # AvatarSVG
+## Interactive .svg character to enhance login experience
 
-I made this repo to investigate all the possibility for SVG creation using:
+I made this repo also to investigate all the possibility for SVG creation using:
 
 - Illustrator
 - Copy to SVG plugin in Adobe XD
@@ -14,3 +15,6 @@ The javascript part this is just a simple exercise, I'm not sure the logic is we
 
 The last attempt is the final version:
 08_XD
+
+Based on the concept by Luigi Rosso and Guido Rosso presented @FlutterInteract19
+(https://www.youtube.com/watch?v=6QZy5sYozVI)
