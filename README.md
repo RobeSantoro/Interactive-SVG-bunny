@@ -1,4 +1,4 @@
-![alt text](https://repository-images.githubusercontent.com/290603478/ee41c100-f4eb-11ea-9b83-5b2d14df7d76)
+![Bunny SVG Social Image](https://repository-images.githubusercontent.com/290603478/ee41c100-f4eb-11ea-9b83-5b2d14df7d76)
 
 
 # Interactive SVG bunny
